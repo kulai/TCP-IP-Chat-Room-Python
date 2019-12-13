@@ -48,7 +48,7 @@ t2.start()
 print("--------------ENTER :: CONNECT :: TCP ---------------")
 #HOST = '192.168.0.111' # The server's hostname or IP address (the other computer)
 HOST = '192.168.0.150' # The server's hostname or IP address (the other computer)
-PORT = 65432 # The port used by the server
+PORT = 65432 # The port used by the server (the other computer)
 
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # we want transmit object -> s as global scope
